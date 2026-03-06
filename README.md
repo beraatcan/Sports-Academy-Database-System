@@ -21,7 +21,11 @@ Below are the conceptual and relational models used to ensure data integrity and
 * **Language:** SQL (DDL & DML)
 * **Design Tools:** Draw.io (Source files included in the repository)
 
+  
+🔍 Advanced Data Analytics: The project includes custom SQL queries to analyze student enrollments, program popularity, and financial performance (See queries.sql).
+
 ## 🚀 How to Run
 1. Clone this repository.
 2. Import the `athleticore.sql` file into your MySQL environment (e.g., MySQL Workbench).
 3. The schema and sample data will be automatically generated.
+
