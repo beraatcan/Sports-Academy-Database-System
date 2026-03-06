@@ -1,14 +1,14 @@
 # 🏋️‍♂️ Sports Academy Database System
 
-A streamlined Relational Database Management System (RDBMS) designed to manage the core operations of a sports academy.
+A comprehensive Relational Database Management System (RDBMS) designed to manage sports academy operations, including student enrollments, coaching assignments, and financial tracking.
 
-## 📌 Features
-* **Student & Coach Management:** Tracks demographics, contact details, and multiple addresses.
-* **Program Enrollment:** Connects students to specific sports programs (e.g., Football, Tennis).
-* **Payment Tracking:** Securely logs financial transactions linked to student enrollments.
+## 📌 Project Structure
+* **`create tables.sql`**: Database schema including tables for Students, Coaches, Programs, and Payments with full integrity constraints.
+* **`insert into.sql`**: Sample datasets to simulate a real-world academy environment.
+* **`queries.sql`**: Advanced SQL scripts for business analytics (Income reports, enrollment stats, etc.).
 
-## 📊 Database Architecture (Visual Models)
-Below are the conceptual and relational models used to ensure data integrity and query efficiency.
+## 📊 Database Architecture
+Detailed visual models ensuring data integrity and efficient relational mapping.
 
 ### 1. Entity-Relationship (ER) Diagram
 ![ER Diagram](ER_.png)
@@ -17,15 +17,11 @@ Below are the conceptual and relational models used to ensure data integrity and
 ![Relational Mapping](Relational_Mapping.png)
 
 ## 🛠️ Tech Stack
-* **Database Engine:** MySQL
+* **Engine:** MySQL
 * **Language:** SQL (DDL & DML)
-* **Design Tools:** Draw.io (Source files included in the repository)
+* **Modeling:** Draw.io (Source files included)
 
-  
-🔍 Advanced Data Analytics: The project includes custom SQL queries to analyze student enrollments, program popularity, and financial performance (See queries.sql).
-
-## 🚀 How to Run
-1. Clone this repository.
-2. Import the `athleticore.sql` file into your MySQL environment (e.g., MySQL Workbench).
-3. The schema and sample data will be automatically generated.
-
+## 🚀 Quick Start
+1. Run `create tables.sql` to build the architecture.
+2. Run `insert into.sql` to populate the system.
+3. Use `queries.sql` to explore the data analytics.
